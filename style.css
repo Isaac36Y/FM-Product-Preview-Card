@@ -28,13 +28,14 @@ body {
     background-color: var(--cream);
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .container {
     width: 90%;
     max-height: 90vh;
     background-color: var(--white);
-    margin: 0 auto;
+    margin: 1rem auto;
     position: relative;
     border-radius: 0.5rem;
     display: flex;
